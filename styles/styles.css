@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"); */
+body {
+  background-image: url(../img/Bitmap.png);
+}
+
+.nav {
+  min-height: 100vh;
+  height: 786px;
+  padding-inline: 165px;
+  padding-block: 30px;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 36px;
+}
+.menu-item {
+  margin: 0 auto;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  margin-inline: 34px;
+}
+.menu-item a:hover {
+  color: #d87d4a;
+}
+
+.cart {
+  margin-left: auto;
+}
+.body-text {
+  margin-top: 225px;
+  color: rgba(255, 255, 255, 1);
+  width: 398px;
+  height: 346px;
+}
+.product {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  line-height: 19.12px;
+}
+p {
+  margin-bottom: 24px;
+}
+
+.first-p {
+  font-size: 56px;
+}
+.second-p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.button {
+  border: none;
+  background-color: #d87d4a;
+  padding: 15px 39px;
+  color: #fbfbfb;
+}
+.button:hover {
+  background-color: rgba(251, 175, 133, 1);
+}
+/* @media (max-height: 768px) {
+  .nav {
+    background-image: url("../img/tablet\ img.png");
+  }
+  .container {
+    display: none;
+  }
+} */
